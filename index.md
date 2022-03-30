@@ -1,37 +1,308 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+         <!-- Site Metas -->
+    <title>Tatoo Shop</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-You can use the [editor on GitHub](https://github.com/student-priy/priyranjansinhvait/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="pogo-slider.min.css">   
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+        <link rel="stylesheet" href="indstyle.css">
+    </head>
+    <body>
+        <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/student-priy/priyranjansinhvait/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            <!-- Start header -->
+            <header class="top-header">
+                <nav class="navbar header-nav navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html"><img src="img/4.jpeg" alt="image" style="width: 260px; height: 100px;border-radius: 95px;"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                            <ul class="navbar-nav">
+                                <li><a class="nav-link active" href="#home">Home</a></li>
+                                <li><a class="nav-link" href="#">Gallery</a></li>
+                                <li><a class="nav-link" href="#">Videos</a></li>
+                                <li><a class="nav-link" href="#">Portfolio</a></li>
+                                <li><a class="nav-link" href="#">info</a></li>
+                                <li><a class="nav-link" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- End header -->
+            
+            <!-- Start Banner -->
+            <div class="ulockd-home-slider">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="pogoSlider" id="js-main-slider">
+                            <div class="pogoSlider-slide" style="background-image:url(img/8.jpeg);"></div>
+                            <div class="pogoSlider-slide" style="background-image:url(img/9.jpeg);"></div>
+                        </div><!-- .pogoSlider -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Banner -->
+            
+                            
+            
+          
+        
+            <!-- donate -->
+            <div id="donate" class="gallery-box" style="background: #f7f7f7;"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-box">
+                                <h2>Gallery</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ul class="popup-gallery clearfix">
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/8.jpeg">
+                                    <img class="img-fluid" src="img/8.jpeg" alt="single image">
+                                    <span class="overlay"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end donate -->
+            
+             <!-- best deals -->
+             <div id="b-deals" class="services-box main-timeline-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-box">
+                                <h2>Our Works</h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+                           
+                                <iframe width="360" height="215" src="https://www.youtube.com/embed/ghUPSnunIwg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                           
+                                <iframe  width="360" height="215" src="https://www.youtube.com/embed/ghUPSnunIwg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                           
+                                <iframe width="360" height="215" src="https://www.youtube.com/embed/ghUPSnunIwg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                           
+                                <iframe  width="360" height="215" src="https://www.youtube.com/embed/ghUPSnunIwg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- best deals -->
+            
+            
+            <!-- contact -->
+            <div id="contact" class="contact-box" style="background: #f7f7f7;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-box">
+                                <h2>Contact us</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-lg-7 col-sm-7 col-xs-12">
+                          <div class="contact-block">
+                            <form id="contactForm">
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>                                 
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                                        <div class="help-block with-errors"></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your number" id="number" class="form-control" name="number" required data-error="Please enter your number">
+                                        <div class="help-block with-errors"></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group"> 
+                                        <textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="submit-button text-center">
+                                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                        <div class="clearfix"></div> 
+                                    </div>
+                                </div>
+                              </div>            
+                            </form>
+                          </div>
+                        </div>
+        
+        
+                        <div class="col-lg-5 col-sm-5 col-xs-12">
+                            <div class="left-contact">
+                                <div class="media cont-line">
+                                    <div class="media-left icon-b">
+                                        <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body dit-right">
+                                        <h4>Address</h4>
+                                        <p>Fleming 196 Woodside Circle Mobile, FL 36602</p>
+                                    </div>
+                                </div>
+                                <div class="media cont-line">
+                                    <div class="media-left icon-b">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body dit-right">
+                                        <h4>Email</h4>
+                                        <a href="#">demoinfo@gmail.com</a><br>
+                                        <a href="#">demoinfo@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="media cont-line">
+                                    <div class="media-left icon-b">
+                                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body dit-right">
+                                        <h4>Phone Number</h4>
+                                        <a href="#">12345 67890</a><br>
+                                        <a href="#">12345 67890</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                </div>
+            </div>
+            <!-- end contact -->
+            
+            
+            <!-- Start Footer -->
+            <footer class="footer-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                              <p class="text-center text-md-end text-xl-start"> 
+                                All Rights Reserved
+                              </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End Footer -->
+            
+            <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+        
+            <!-- ALL JS FILES -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <!-- ALL PLUGINS -->
+            <script src="js/jquery.magnific-popup.min.js"></script>
+            <script src="js/jquery.pogo-slider.min.js"></script> 
+            <script src="js/slider-index.js"></script>
+            <script src="js/smoothscroll.js"></script>
+            <script src="js/form-validator.min.js"></script>
+            <script src="js/contact-form-script.js"></script>
+            <script src="js/isotope.min.js"></script>	
+            <script src="js/images-loded.min.js"></script>	
+            <script src="js/custom.js"></script>
+        
+    </body>
+</html>
